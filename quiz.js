@@ -105,6 +105,7 @@ function results(){
 
     var final_score = Number(q1result()) + Number(q2result()) + Number(q3result()) + Number(q4result()) + Number(q5result());
     var messages = ["你没有高四病", "你需要小心", "你有高四病"];
+    var pictures = ["img/clap.gif", "img/unsure.gif", "img/disappointed.gif"]
     var range;
 
     if (final_score > 4 && final_score <11) {
@@ -119,5 +120,6 @@ function results(){
 
     document.getElementById("after_submit").style.visbility = "visible";
     document.getElementById("message").innerHTML = messages[range];
+    document.getElementById("picture").src = pictures[range];
 
 }

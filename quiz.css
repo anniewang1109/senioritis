@@ -10,14 +10,63 @@ h1{
     margin-bottom: 30px;
 }
 
+h2{
+    font-size: 200%;
+    line-height: 2;
+}
+
+p{
+    font-size: 140%;
+    margin-top: 10px;
+}
+
 #quiz{
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 5%;
 }
 
+#mc{
+    display: inline;
+}
+
+#ok{
+    margin-top:5px;
+    background: white;
+    border-radius: 5px;
+    width: 40px;
+    padding: 5px;
+    font-family: sans-serif;
+    transition-duration: .5s;
+}
+
+#ok:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#resultButton{
+    background: black;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 50%;
+    margin-right: 50%;
+    transition-duration: .5s;
+}
+
+#resultButton:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
 #after_submit{
-    background-color: black;
+    background-color: white;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 5%;
@@ -25,7 +74,12 @@ h1{
 }
 
 #message{
-    color: white;
+    color: black;
     font-size: 150%;
     text-align: center;
+}
+
+#img_container{
+    margin-left: auto;
+    margin-right: auto;
 }

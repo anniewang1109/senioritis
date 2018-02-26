@@ -9,9 +9,6 @@
 
 <body>
     <h1>小问卷</h1>
-    <!-- <div id="quiz"></div> -->
-
-    <!-- <div id="results"><div> -->
     <form id="quiz" name="quiz">
         <h2>评价从一到五；五是最严重</h2>
 
@@ -21,7 +18,7 @@
         <input type="radio" id="mc" name="question1" value="3"> 3<br>
         <input type="radio" id="mc" name="question1" value="4"> 4<br>
         <input type="radio" id="mc" name="question1" value="5"> 5<br>
-        <input id="q1" type="button" value="好" onclick="q1result();">
+        <input id="ok" type="button" value="OK" onclick="q1result();">
 
         <p>2. 你常常不做功课或者过了一天在学校里做</p>
         <input type="radio" id="mc" name="question2" value="1"> 1<br>
@@ -29,7 +26,7 @@
         <input type="radio" id="mc" name="question2" value="3"> 3<br>
         <input type="radio" id="mc" name="question2" value="4"> 4<br>
         <input type="radio" id="mc" name="question2" value="5"> 5<br>
-        <input id="q2" type="button" value="好" onclick="q2result();">
+        <input id="ok" type="button" value="OK" onclick="q2result();">
 
         <p>3. 你不怎么管自己考试考了多少分</p>
         <input type="radio" id="mc" name="question3" value="1"> 1<br>
@@ -37,7 +34,7 @@
         <input type="radio" id="mc" name="question3" value="3"> 3<br>
         <input type="radio" id="mc" name="question3" value="4"> 4<br>
         <input type="radio" id="mc" name="question3" value="5"> 5<br>
-        <input id="q3" type="button" value="好" onclick="q3result();">
+        <input id="ok" type="button" value="OK" onclick="q3result();">
 
         <p>4. 你常常晚到学校</p>
         <input type="radio" id="mc" name="question4" value="1"> 1<br>
@@ -45,7 +42,7 @@
         <input type="radio" id="mc" name="question4" value="3"> 3<br>
         <input type="radio" id="mc" name="question4" value="4"> 4<br>
         <input type="radio" id="mc" name="question4" value="5"> 5<br>
-        <input id="q4" type="button" value="好" onclick="q4result();">
+        <input id="ok" type="button" value="OK" onclick="q4result();">
 
         <p>5. 你常常上课的时候睡觉</p>
         <input type="radio" id="mc" name="question5" value="1"> 1<br>
@@ -53,14 +50,17 @@
         <input type="radio" id="mc" name="question5" value="3"> 3<br>
         <input type="radio" id="mc" name="question5" value="4"> 4<br>
         <input type="radio" id="mc" name="question5" value="5"> 5<br>
-        <input id="q5" type="button" value="好" onclick="q5result();">
+        <input id="ok" type="button" value="OK" onclick="q5result();">
 
-
+        <p>    <p>
         <input id="resultButton" type="button" value="结果" onclick="results();">
     </form>
 
     <div id="after_submit">
         <p id="message"></p>
+        <div id="img_container">
+            <img id="picture">
+        </div>
     </div>
 
 </body>
