@@ -26,14 +26,23 @@ h3{
 
 p{
     font-size: 150%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 ul{
     list-style-position: inside;
     font-size: 150%;
     margin-left: 10px;
+    /* width: 40%; */
+    /* background: red; */
 }
 
+img{
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
 
 
 #heading{
@@ -47,4 +56,53 @@ ul{
 #content{
     margin-left: 15%;
     margin-right: 15%;
+}
+
+#container1{
+    /* background-color: blue; */
+    height: 300px;
+}
+
+#semester_img{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+#list1{
+    float: left;
+    width: 20%;
+}
+
+#clear{
+    float: none;
+}
+
+#container2{
+    height: 300px;
+}
+
+#do_tmr_img{
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+
+#list2{
+    float:left;
+}
+
+#container3{
+    height: 300px;
+}
+
+#senioritis_img{
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+
+#list3{
+    float:left;
+    width: 65%;
 }
