@@ -75,11 +75,5 @@ p{
 
 #message{
     color: black;
-    font-size: 150%;
-    text-align: center;
-}
-
-#img_container{
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 200%;
 }
