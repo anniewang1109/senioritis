@@ -34,8 +34,6 @@ ul{
     list-style-position: inside;
     font-size: 150%;
     margin-left: 10px;
-    /* width: 40%; */
-    /* background: red; */
 }
 
 img{
@@ -47,6 +45,7 @@ img{
 a{
     text-decoration: none;
     color: black;
+    font-size: 150%;
 }
 
 #heading{
@@ -63,7 +62,6 @@ a{
 }
 
 #container1{
-    /* background-color: blue; */
     height: 300px;
 }
 
