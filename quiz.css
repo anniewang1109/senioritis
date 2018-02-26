@@ -53,10 +53,11 @@ p{
 
 #after_submit{
     background-color: white;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: auto;
     margin-bottom: 5%;
-    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
 }
 
 #message{
