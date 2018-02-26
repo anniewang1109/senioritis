@@ -39,7 +39,7 @@ ul{
 img{
     width: 95%;
     height: 95%;
-    margin: auto;
+    margin-left: 24px;
 }
 
 a{
@@ -74,6 +74,7 @@ a{
 #list1{
     float: left;
     width: 20%;
+    margin-left: 5px;
 }
 
 #clear{
@@ -92,6 +93,7 @@ a{
 
 #list2{
     float:left;
+    margin-left: 5px;
 }
 
 #container3{
@@ -107,4 +109,5 @@ a{
 #list3{
     float:left;
     width: 65%;
+    margin-left: 5px;
 }
