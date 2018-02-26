@@ -8,6 +8,7 @@ h1{
     font-size: 132px;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 h2{
@@ -30,25 +31,10 @@ p{
     display: inline;
 }
 
-#ok{
-    margin-top:5px;
-    background: white;
-    border-radius: 5px;
-    width: 40px;
-    padding: 5px;
-    font-family: sans-serif;
-    transition-duration: .5s;
-}
-
-#ok:hover{
-    background: black;
-    color: white;
-    cursor: pointer;
-}
-
 #resultButton{
     background: black;
     border-radius: 5px;
+    border-style: none;
     width: 100px;
     color: white;
     padding: 10px;
