@@ -17,5 +17,15 @@ h1{
 }
 
 #after_submit{
-    visibility: hidden;
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    padding: 20px;
+}
+
+#message{
+    color: white;
+    font-size: 150%;
+    text-align: center;
 }

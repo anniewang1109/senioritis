@@ -103,28 +103,21 @@ function q5result(){
 
 function results(){
 
-
-var final_score = Number(q1result()) + Number(q2result()) + Number(q3result()) + Number(q4result()) + Number(q5result());
-
-console.log (final_score);
-var messages = ["你没有高四病", "你需要小心", "你有高四病"];
-
-var range;
+    var final_score = Number(q1result()) + Number(q2result()) + Number(q3result()) + Number(q4result()) + Number(q5result());
+    var messages = ["你没有高四病", "你需要小心", "你有高四病"];
+    var range;
 
     if (final_score > 4 && final_score <11) {
         range = 0;
-        console.log(range);
     }
     if (final_score > 11 && final_score <20) {
         range = 1;
-        console.log(range);
     }
     if (final_score > 20) {
         range = 2;
-        console.log(range);
     }
 
-document.getElementById("after_submit").style.visbility = "visible";
-document.getElementById("message").innerHTML = messages[range];
+    document.getElementById("after_submit").style.visbility = "visible";
+    document.getElementById("message").innerHTML = messages[range];
 
 }
