@@ -110,3 +110,8 @@ a{
     float:left;
     width: 65%;
 }
+
+#comic{
+    margin-bottom: 15px;
+    margin-left: 24px;
+}
