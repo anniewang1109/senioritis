@@ -10,8 +10,12 @@ h1{
     margin-bottom: 30px;
 }
 
-form{
+#quiz{
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 5%;
+}
+
+#after_submit{
+    visibility: hidden;
 }
