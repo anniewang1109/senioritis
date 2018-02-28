@@ -84,6 +84,7 @@ a{
 
 #container1{
     height: 300px;
+    background-color: red;
 }
 
 #semester_img{
@@ -94,12 +95,9 @@ a{
 
 #list1{
     float: left;
-    width: 20%;
+    width: 50%;
+    background-color: blue;
     margin-left: 5px;
-}
-
-#clear{
-    float: none;
 }
 
 #container2{
@@ -115,6 +113,7 @@ a{
 #list2{
     float:left;
     margin-left: 5px;
+    background-color: blue;
 }
 
 #container3{
@@ -130,6 +129,7 @@ a{
 #list3{
     float:left;
     width: 65%;
+    background-color: blue;
 }
 
 #comic{
